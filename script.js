@@ -58,7 +58,7 @@ document.querySelector(".reset").addEventListener("click",() => {
     boxes.forEach((box) => {
         box.innerText="";
         box.style.backgroundColor = "#dff4ff";
-        document.querySelector(".boxes").style.color = "deepskyblue";
+        box.style.color = "deepskyblue";
     });
     turn="x";
     count=0;
