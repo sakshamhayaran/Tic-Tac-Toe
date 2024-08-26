@@ -58,11 +58,11 @@ document.querySelector(".reset").addEventListener("click",() => {
     boxes.forEach((box) => {
         box.innerText="";
         box.style.backgroundColor = "#dff4ff";
+        document.querySelector(".boxes").style.color = "deepskyblue";
     });
     turn="x";
     count=0;
     document.querySelector("#x").style.backgroundColor = "#72daff";
     document.querySelector("#o").style.backgroundColor = "#dff4ff";
-    document.querySelector(".boxes").style.color = "deepskyblue";
     document.querySelector(".message").innerText = "PLAY !";
 });
